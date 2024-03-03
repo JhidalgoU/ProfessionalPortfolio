@@ -1,6 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-html {
+:root{
     background-color: #0A0B0C;
-    font-family: 'Montserrat', sans-serif;
-
+}
+.defaultColor
+{
+    background-color: #0A0B0C;
 }
