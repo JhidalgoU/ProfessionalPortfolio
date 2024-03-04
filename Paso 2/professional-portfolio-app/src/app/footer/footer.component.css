@@ -1,0 +1,36 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .social-icons a {
+    margin-right: 2%;
+    font-size: 35px;
+
+  }  
+  
+  .social-icons i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+.fab {
+    /* Aplica un linear gradient al color de los iconos */
+    color: #590A1B;
+  }
+  
+  /* Cambia el color del linear gradient de los iconos al pasar el cursor sobre ellos */
+.fab:hover {
+    color:  #B08D57;
+    font-size: 40px;
+}
+
+  

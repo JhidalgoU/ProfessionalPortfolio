@@ -1,19 +1,11 @@
-.row{
-
-    padding: 0;
-    
-}
-.row > *{
-    margin: 0;
-    padding: 0;
-    height: 80vh;
-}
 h1, h3{
     font-family: 'Montserrat', sans-serif;
 }
-p{
-    font-family: 'Montserrat', sans-serif;
 
+
+div.row{
+    margin-left:  0;
+    margin-right: 0;
 }
 @media (max-width: 576px) {
     h1 {
@@ -23,32 +15,23 @@ p{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    img{
-        width: 90%;
-    }
-
+    
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577spx) and (max-width: 768px) {
     h1 {
         background: -webkit-linear-gradient(0deg, #590A1B 30%, #B08D57);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;        
     }
-    img{
-        width: 90%;
-    }
-
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
     h1 {
+        font-size: 3.5em;
         background: -webkit-linear-gradient(0deg, #590A1B 1%, #B08D57);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;    
-    }
-    img{
-        width: 80%;
     }
 }
 
@@ -58,19 +41,20 @@ p{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;    
     }
-    img{
-        width: 80%;
+    div.defaultColor > *{
+        height: 85vh;
     }
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
     h1 {
+        font-size: 4em;
         background: -webkit-linear-gradient(0deg, #590A1B -5%, #B08D57);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;    
     }
-    img{
-        width: 80%;
+    div.defaultColor > *{
+        height: 87vh;
     }
 }
 
@@ -81,7 +65,7 @@ p{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;    
     }
-    img{
-        width: 100%;
+    div.defaultColor > *{
+        height: 88vh;
     }
 }
