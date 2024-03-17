@@ -1,0 +1,74 @@
+div.row{
+    margin-left:  0;
+    margin-right: 0;
+}
+.card{
+    border-radius: 20%;
+    background-color: rgba(89, 10, 27, 0.4);
+    color: #B08D57;
+    height: auto;
+    width: auto;
+}
+.card-body > a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20%;
+}
+.btn-primary {
+    background: linear-gradient(180deg, #590A1B 30%, #B08D57);
+    border-color: #590A1B;
+}
+
+
+.vertical-line {
+    border-radius: 10px; /* Radio de las esquinas */
+    background: linear-gradient(180deg, #590A1B 30%, #B08D57); /* Gradiente vertical de blanco a negro */
+    animation: vertical-slide 2s infinite; /* Duración, iteraciones */
+    
+}
+
+@media (max-width: 576px) {
+    .vertical-line {
+        width: 10px; /* Ancho de la línea */
+        height: 80%; 
+    }
+    
+}
+
+@media (min-width: 577spx) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .vertical-line {
+        width: 10px; /* Ancho de la línea */
+        height: 75%; 
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .vertical-line {
+        width: 10px; /* Ancho de la línea */
+        height: 50%; 
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .vertical-line {
+        width: 10px; /* Ancho de la línea */
+        height: 50%; 
+    }
+
+}
+
+@media (min-width: 1401px) {
+    .vertical-line {
+        width: 10px; /* Ancho de la línea */
+        height: 30%; 
+    }
+
+}
+
+
+

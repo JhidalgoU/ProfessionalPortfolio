@@ -7,12 +7,12 @@
   cursor: pointer;
   color: gray;
   background: var(--bg-color);
-  box-shadow: inset 5px 5px 10px #590A1B, inset -5px -5px 10px #B08D57;
+  box-shadow:  5px 5px 10px #590A1B, -5px -5px 10px #B08D57;
   transition: 0.3s ease-in-out;
 }
 
 .card-skills:hover {
-	box-shadow: 5px 5px 10px #590A1B, -5px -5px 10px #B08D57;
+	box-shadow: 5px 5px 10px #B08D57, -5px -5px 10px #590A1B;
 }
 .flask-icon {
 	fill: gray; /* Color normal */
