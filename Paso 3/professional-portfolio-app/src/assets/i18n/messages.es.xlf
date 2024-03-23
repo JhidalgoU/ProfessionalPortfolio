@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="about-me-title" datatype="html">
+        <source>About Me</source>
+        <target xml:lang="es">Sobre mí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-name" datatype="html">
+        <source>Name</source>
+        <target xml:lang="es">Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-email" datatype="html">
+        <source>Email</source>
+        <target xml:lang="es">Correo Electrónico</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-subject" datatype="html">
+        <source>Subject</source>
+        <target xml:lang="es">Asunto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-message" datatype="html">
+        <source>Message</source>
+        <target xml:lang="es">Mensaje</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-me-description" datatype="html">
+        <source> I&apos;m a software developer with a focus primarily on backend technologies. I have experience in developing applications using technologies such as SQL, Angular, Spring Boot, and Flask.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Recently, I have started a project with Solidity, which has allowed me to expand my skills in developing smart contracts and decentralized applications. I excel at designing and implementing<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> efficient, scalable solutions. I enjoy tackling new challenges and learning new technologies to continuously improve my skills as a developer. </source>
+        <target xml:lang="es">Soy un desarrollador de software con un enfoque principalmente en tecnologías backend. Tengo experiencia en el desarrollo de aplicaciones utilizando tecnologías como SQL, Angular, Spring Boot y Flask.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Recientemente, he comenzado un proyecto con Solidity, lo que me ha permitido ampliar mis habilidades en el desarrollo de contratos inteligentes y aplicaciones descentralizadas. Destaco en el diseño e implementación de soluciones eficientes y escalables. Disfruto enfrentando nuevos desafíos y aprendiendo nuevas tecnologías para mejorar continuamente mis habilidades como desarrollador.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="download-cv-link" datatype="html">
+        <source>assets\CV-JOSIAS-HIDALGO-UMAÑA-EN.pdf</source>
+        <target xml:lang="es">assets\CV-JOSIAS-HIDALGO-UMAÑA-ES.pdf</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="downloadCVText" datatype="html">
+        <source>Download my CV</source>
+        <target xml:lang="es">Descargar mi CV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-me-title" datatype="html">
+        <source>Contact Me</source>
+        <target xml:lang="es">Contáctame</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-submit" datatype="html">
+        <source>Submit</source>
+        <target xml:lang="es">Enviar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-text-no-fills" datatype="html">
+        <source>Please fill out all fields in the form.</source>
+        <target xml:lang="es">Por favor, completa todos los campos en el formulario.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-btn-no-fills" datatype="html">
+        <source>Close</source>
+        <target xml:lang="es">Cerrar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="modal-title-success" datatype="html">
+        <source>Success</source>
+        <target xml:lang="es">Éxito</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-text-success" datatype="html">
+        <source>Your message has been sent successfully.</source>
+        <target xml:lang="es">Tu mensaje ha sido enviado exitosamente.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-btn-success" datatype="html">
+        <source>Close</source>
+        <target xml:lang="es">Cerrar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home-title" datatype="html">
+        <source>Software Developer</source>
+        <target xml:lang="es">Desarrollador de Software</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home-description" datatype="html">
+        <source> I&apos;m a proactive and detail-oriented software engineering student with a passion for crafting efficient and user-friendly applications. With a strong foundation in software development principles and an eagerness to tackle new challenges, I am seeking freelance opportunities to apply my skills and contribute to innovative projects. My goal is to deliver high-quality solutions that meet the unique needs of each client and exceed their expectations. </source>
+        <target xml:lang="es">Soy un estudiante proactivo y detallista de ingeniería de software con una pasión por crear aplicaciones eficientes y fáciles de usar. Con una sólida base en los principios del desarrollo de software y un deseo de enfrentar nuevos desafíos, estoy buscando oportunidades de trabajo freelance para aplicar mis habilidades y contribuir a proyectos innovadores. Mi objetivo es entregar soluciones de alta calidad que satisfagan las necesidades únicas de cada cliente y superen sus expectativas.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="logoAlt" datatype="html">
+        <source>Logo of a cat shaped like the letter J</source>
+        <target xml:lang="es">Logo de un gato en forma de la letra J</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home" datatype="html">
+        <source> Home </source>
+        <target xml:lang="es"> Inicio </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutMe" datatype="html">
+        <source> About Me </source>
+        <target xml:lang="es"> Sobre mí </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects" datatype="html">
+        <source> Projects </source>
+        <target xml:lang="es"> Proyectos </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source> Skills </source>
+        <target xml:lang="es"> Habilidades </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact" datatype="html">
+        <source> Contact </source>
+        <target xml:lang="es"> Contacto </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="changeLangLink" datatype="html">
+        <source>/es-CR/</source>
+        <target xml:lang="es">/en-US/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="changeLangText" datatype="html">
+        <source>Español</source>
+        <target xml:lang="es">English</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects-title" datatype="html">
+        <source>Projects</source>
+        <target xml:lang="es">Proyectos</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+                <context context-type="linenumber">3</context>
+              </context-group>
+            </trans-unit>
+
+          <trans-unit id="text-EasyList" datatype="html">
+        <source>A website for tender management, using JS, HTML, Bootstrap for the frontend, ASP.NET for the backend, SQL for database management, among others.</source>
+        <target xml:lang="es">Un sitio web para la gestión de licitaciones, utilizando JS, HTML, Bootstrap para el frontend, ASP.NET para el backend, SQL para la gestión de la base de datos, entre otros.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="text-Isaac" datatype="html">
+        <source>Backend project and REST API focused on machine learning with neural networks for animal classification, developed using Flask and AWS.</source>
+        <target xml:lang="es">Proyecto backend y API REST enfocada en el aprendizaje automático con redes neuronales para la clasificación de animales, desarrollado usando Flask y AWS.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="text-Horus" datatype="html">
+        <source>Machine learning project with computer vision, focused on the detection and extraction of vehicle license plates, working with technologies such as Python, YOLOv5, and Google Colab.</source>
+        <target xml:lang="es">Proyecto de aprendizaje automático con visión por computadora, centrado en la detección y extracción de placas de vehículos, trabajando con tecnologías como Python, YOLOv5 y Google Colab.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills-title" datatype="html">
+        <source>Skills</source>
+        <target xml:lang="es">Habilidades</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

@@ -1,10 +1,10 @@
-<div class="defaultColor py-5 " id="Skills">
+<div class="defaultColor py-5 " >
     <div class="title-container position-relative w-100">
-      <div class="h2 py-3 ms-5 ps-5 defaultFont title text-light">Skills</div>
+      <div class="h2 py-3 ms-5 ps-5 defaultFont title text-light" data-aos="fade-right" data-aos-duration="1000" i18n="@@skills-title" >Skills</div>
     </div>
     <div id="skill" class="row w-100 justify-content-center px-3 skill-cont">
       <div class="col-lg-2 col-md-5 col-sm-10 card d-flex flex-column card-skills cards p-2 mx-4 px-3 my-4 {{ item.hoverClass }}"
-        *ngFor="let item of mySkills; let i = index" id="card-{{ i }}">
+        *ngFor="let item of mySkills; let i = index" id="card-{{ i }}" data-aos="flip-left" data-aos-duration="2000">
         <div class="d-flex my-2 justify-content-center align-items-center gap-2">
           <span *ngIf="item.icon !== 'flask'; else flaskIcon" class="{{ item.icon }}"></span>
             <ng-template #flaskIcon>

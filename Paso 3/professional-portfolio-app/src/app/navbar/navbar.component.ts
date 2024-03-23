@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { LanguageService } from '../services/languaje.service';
+import { ScrollService } from '../services/scroll.service';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,12 @@ import { LanguageService } from '../services/languaje.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  constructor(private languageService: LanguageService) {}
+  constructor(private scrollService: ScrollService, private route: ActivatedRoute) {}
 
-  changeLanguage(language: string) {
-    this.languageService.setLanguage(language);
+  ngOnInit(): void {}
+
+  scrollTo(section: string) {
+    this.scrollService.scrollToElement(section);
   }
+
 }

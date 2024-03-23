@@ -30,5 +30,12 @@ li{
 .navbar-toggler:focus{
     box-shadow: none;
 }
-.navbar{
+
+
+.btn-primary{
+    border: none;
+    background-color: #590A1B;
+}
+.menu-no:hover{
+    background-color: none;
 }

@@ -9,7 +9,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "es-CR": "src/assets/i18n/es-CR.xliff"
+          "es-CR": "src/assets/i18n/messages.es.xlf"
         }
       },
       "root": "",
@@ -17,8 +17,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "src/custom-webpack.config.ts"
+            },
             "localize": true,
             "outputPath": "dist/professional-portfolio-app",
             "index": "src/index.html",
@@ -33,9 +36,13 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "es-CR": {
@@ -83,7 +90,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "@angular-builders/custom-webpack:dev-server",
           "configurations": {
             "es-CR": {
               "browserTarget": "professional-portfolio-app:build:es-CR"

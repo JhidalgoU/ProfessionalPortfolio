@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as aos from 'aos';
 
 
 @Component({
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
+  ngOnInit() {
+    aos.init();
+  }
 
+  
+  
 }

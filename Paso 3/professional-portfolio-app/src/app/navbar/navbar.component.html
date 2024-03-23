@@ -6,35 +6,38 @@
         <ul class="navbar-nav me-sm-0  me-auto mb-2 mb-lg-0">
             <li class="nav-item  ">
                 <a class="nav-link ms-sm-0 ms-lg-5 " href="">
-                    <img src="assets/logo.png" alt="Logo de un gato con forma de letra J" i18n="@@logoAlt">
+                    <img src="assets/logo.png" alt="Logo of a cat shaped like the letter J" i18n-alt="@@logoAlt">
                 </a>
             </li>
         </ul>
         <ul class="navbar-nav mx-5 ">
             <li class="nav-item  menu ">
-                <a class="nav-link  " href="#home" i18n="@@home">
+                <a class="nav-link" (click)="scrollTo('home')" i18n="@@home">
                     Home
                 </a>
             </li>
             <li class="nav-item menu">
-                <a class="nav-link " href="#about-me" i18n="@@aboutMe">
+                <a class="nav-link" (click)="scrollTo('about')" i18n="@@aboutMe">
                     About Me
                 </a>
             </li>
             <li class="nav-item menu">
-                <a class="nav-link " href="/" i18n="@@projects">
+                <a class="nav-link" (click)="scrollTo('projects')" i18n="@@projects">
                     Projects
                 </a>
             </li>
             <li class="nav-item menu" >
-                <a class="nav-link " href="/en-US/" i18n="@@skills">
+                <a class="nav-link" (click)="scrollTo('skills')" i18n="@@skills">
                     Skills
                 </a>
             </li>
             <li class="nav-item menu">
-                <a class="nav-link " href="/es-CR/" i18n="@@contact" onclick="">
+                <a class="nav-link" (click)="scrollTo('contact')" i18n="@@contact">
                     Contact
                 </a>
+            </li>
+            <li class="nav-item menu-no d-flex justify-content-center ">
+                <a class="btn btn-primary" href="/es-CR/" i18n-href="@@changeLangLink" > <span i18n="@@changeLangText">Español</span> </a>
             </li>
         </ul>
     </div>

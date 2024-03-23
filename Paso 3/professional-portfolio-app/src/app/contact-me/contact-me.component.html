@@ -1,1 +1,72 @@
-<p>contact-me works!</p>
+<div class="container mb-4 " id="contact-me">
+  <div class="row">
+    <div class="col-lg-7 col-md-12 ">
+      <div class="card defaultColor text-white p-4">
+        <h2 class="card-title mb-4 defaultFont" i18n="@@contact-me-title" data-aos="fade-right" data-aos-duration="1000">Contact Me</h2>
+        <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+          <div class="mb-4">
+            <input type="text" class="form-control" placeholder="Name" i18n-placeholder="@@contact-name" name="name" [(ngModel)]="formData.from_name" required data-aos="fade-right" data-aos-duration="1300">
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control" placeholder="Email" i18n-placeholder="@@contact-email" name="email" [(ngModel)]="formData.from_email" required data-aos="fade-right" data-aos-duration="1600">
+          </div>
+          <div class="mb-4">
+            <input type="text" class="form-control" placeholder="Subject" i18n-placeholder="@@contact-subject" name="subject" [(ngModel)]="formData.subject" required data-aos="fade-right" data-aos-duration="1900">
+          </div>
+          <div class="mb-4">
+            <textarea class="form-control" placeholder="Message" i18n-placeholder="@@contact-message" name="message" [(ngModel)]="formData.message" required data-aos="fade-right" data-aos-duration="2200"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" i18n="@@contact-submit" class="btn btn-primary w-100" data-aos="fade-right" data-aos-duration="2500">Submit</button>
+          </div>
+
+          <!-- Modal -->
+          <div *ngIf="showModal" class="modal d-block" tabindex="-1"  aria-modal="true" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Error</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <p i18n="@@contact-modal-text-no-fills">Please fill out all fields in the form.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="closeModal()" i18n="@@contact-modal-btn-no-fills">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal de Éxito -->
+          <div *ngIf="showSuccessModal" class="modal" tabindex="-1" style="display: block;" aria-modal="true" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" i18n="@@modal-title-success">Success</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <p i18n="@@contact-modal-text-success">Your message has been sent successfully.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="closeModal()" i18n="@@contact-modal-btn-success">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-lg-5 col-md-12 d-flex align-content-center ">
+      <div class="card defaultColor text-white p-4 w-100 justify-content-center align-content-center ">
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jhidalgou/" target="_blank" rel="noopener noreferrer" class="mx-5"><i class="fab fa-linkedin-in" data-aos="flip-right" data-aos-duration="2000"></i></a>
+          <a href="https://github.com/JhidalgoU" target="_blank" rel="noopener noreferrer" class="mx-5"><i class="fab fa-github" data-aos="flip-right" data-aos-duration="2500"></i></a>
+          <a href="https://wa.me/+50687733016" target="_blank" rel="noopener noreferrer" class="mx-5 "><i class="fab fa-whatsapp" data-aos="flip-right" data-aos-duration="3000"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
