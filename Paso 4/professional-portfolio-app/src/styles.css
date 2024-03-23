@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    background-color: #0A0B0C;
+}
+
+
+
+body {
+    background-color: #0A0B0C;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; 
+}
+.defaultColor
+{
+    background-color: #0A0B0C;
+}  
+
+.defaultFont{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+
+  
+
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    div.row > *{
+        height: 85vh;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+    div.row > *{
+        height: 87vh;
+    }
+}
+
+@media (min-width: 1401px) {
+    div.row > *{
+        height: 88vh;
+    }
+}

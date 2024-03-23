@@ -1,0 +1,9 @@
+div.row>* {
+  height: 10px;
+}
+footer {
+  background-color: #590A1B;
+  padding: 25px;
+  text-align: center;
+  color: #B08D57;
+}

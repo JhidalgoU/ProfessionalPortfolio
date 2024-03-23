@@ -1,0 +1,26 @@
+<header>
+  <app-navbar></app-navbar>
+</header>
+<main #main>
+  <section id="home">
+    <app-home></app-home>
+  </section>
+  <section id="about">
+    <app-about-me></app-about-me>
+  </section>
+  <section id="projects">
+    <app-projects></app-projects>
+  </section>
+  <section  id="skills">
+    <app-skills ></app-skills>
+  </section>
+  <section id="contact">
+    <app-contact-me ></app-contact-me>
+  </section>
+</main>
+<footer>
+  <app-footer></app-footer>
+</footer>
+<button *ngIf="showScrollButton" (click)="scrollToTop()" class="btn btn-primary scroll-to-top">
+  <i class="fa fa-arrow-up"></i>
+</button>

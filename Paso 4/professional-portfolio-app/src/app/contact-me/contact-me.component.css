@@ -1,0 +1,46 @@
+div.row>* {
+    height: auto;
+}
+
+.btn-primary{
+    background-color: #590A1B;
+    border-color: #590A1B;
+}
+.btn-primary:hover{
+    background-color: #B08D57;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    font-size: 70px;
+
+  }  
+  
+  .social-icons i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+.fab {
+    /* Aplica un linear gradient al color de los iconos */
+    color: #590A1B;
+  }
+  
+  /* Cambia el color del linear gradient de los iconos al pasar el cursor sobre ellos */
+.fab:hover {
+    color:  #B08D57;
+    transform: scale(1.3);
+    transition: transform 0.3s;
+}
+
+.modal-content{
+    background-color: gray;
+}
+.btn-secondary{
+    background-color: #590A1B;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: #B08D57;
+}
