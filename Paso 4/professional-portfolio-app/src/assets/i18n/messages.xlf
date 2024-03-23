@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="about-me-title" datatype="html">
+        <source>About Me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-me-description" datatype="html">
+        <source> I&apos;m a software developer with a focus primarily on backend technologies. I have experience in developing applications using technologies such as SQL, Angular, Spring Boot, and Flask.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Recently, I have started a project with Solidity, which has allowed me to expand my skills in developing smart contracts and decentralized applications. I excel at designing and implementing<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> efficient, scalable solutions. I enjoy tackling new challenges and learning new technologies to continuously improve my skills as a developer. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="download-cv-link" datatype="html">
+        <source>assets\CV-JOSIAS-HIDALGO-UMAÑA-EN.pdf</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="downloadCVText" datatype="html">
+        <source>Download my CV</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-me-title" datatype="html">
+        <source>Contact Me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-name" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-email" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-subject" datatype="html">
+        <source>Subject</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-message" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-submit" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-text-no-fills" datatype="html">
+        <source>Please fill out all fields in the form.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-btn-no-fills" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="modal-title-success" datatype="html">
+        <source>Success</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-text-success" datatype="html">
+        <source>Your message has been sent successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-modal-btn-success" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-me/contact-me.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home-title" datatype="html">
+        <source>Software Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home-description" datatype="html">
+        <source> I&apos;m a proactive and detail-oriented software engineering student with a passion for crafting efficient and user-friendly applications. With a strong foundation in software development principles and an eagerness to tackle new challenges, I am seeking freelance opportunities to apply my skills and contribute to innovative projects. My goal is to deliver high-quality solutions that meet the unique needs of each client and exceed their expectations. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="logoAlt" datatype="html">
+        <source>Logo of a cat shaped like the letter J</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home" datatype="html">
+        <source> Home </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutMe" datatype="html">
+        <source> About Me </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects" datatype="html">
+        <source> Projects </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source> Skills </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact" datatype="html">
+        <source> Contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="changeLangLink" datatype="html">
+        <source>/en-US/</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="changeLangText" datatype="html">
+        <source>Español</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects-title" datatype="html">
+        <source>Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="text-EasyList" datatype="html">
+        <source>A website for tender management, using JS, HTML, Bootstrap for the frontend, ASP.NET for the backend, SQL for database management, among others.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="text-Isaac" datatype="html">
+        <source>Backend project and REST API focused on machine learning with neural networks for animal classification, developed using Flask and AWS.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="text-Horus" datatype="html">
+        <source>Machine learning project with computer vision, focused on the detection and extraction of vehicle license plates, working with technologies such as Python, YOLOv5, and Google Colab.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills-title" datatype="html">
+        <source>Skills</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

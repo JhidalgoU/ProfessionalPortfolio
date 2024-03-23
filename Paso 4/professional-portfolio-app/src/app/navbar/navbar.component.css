@@ -1,0 +1,41 @@
+nav{
+    background-color: #0A0B0C;
+}
+a{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+a:hover{
+    color: #B08D57;
+}
+
+
+li{
+    margin: 0 25px;
+}
+.menu:hover{
+    background-color: rgba(176, 141, 87, 0.1);
+    border-radius: 50px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(176, 141, 87, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+.btn-primary{
+    border: none;
+    background-color: #590A1B;
+}
+.menu-no:hover{
+    background-color: none;
+}

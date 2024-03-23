@@ -1,0 +1,89 @@
+.fab,
+.fas {
+  font-size: 3rem;
+}
+.card-skills {
+  border-radius: 10px;
+  cursor: pointer;
+  color: gray;
+  background: var(--bg-color);
+  box-shadow:  5px 5px 10px #590A1B, -5px -5px 10px #B08D57;
+  transition: 0.3s ease-in-out;
+}
+
+.card-skills:hover {
+	box-shadow: 5px 5px 10px #B08D57, -5px -5px 10px #590A1B;
+}
+.flask-icon {
+	fill: gray; /* Color normal */
+	transition: fill 0.3s; /* Transición suave */
+}
+.flask-icon:hover {
+	fill: #ffffff; /* Color al hacer hover */
+}
+
+/* Estilos de hover específicos para cada ícono*/
+
+.tec-hover:hover {
+	color: #000; 
+}
+.html-hover:hover {
+	color: #E44D26; 
+}
+.css-hover:hover {
+	color: #1572B6; 
+}
+
+.js-hover:hover {
+	color: #F7DF1E; 
+}
+
+.angular-hover:hover {
+	color: #DD0031; 
+}
+
+.java-hover:hover {
+	color: #007396; 
+}
+
+.flask-hover:hover, .flask-hover:hover svg{
+	color: #ffffff; 
+	fill: #ffffff;
+}
+
+.ts-hover:hover {
+	color: #007ACC; 
+}
+
+.nodejs-hover:hover {
+	color: #68A063; 
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .row {
+    --bs-gutter-x: 0 !important;
+  }
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    div.row > *{
+        height: auto;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+    div.row > *{
+        height: auto;
+    }
+}
+
+@media (min-width: 1401px) {
+    div.row > *{
+        height: auto;
+    }
+}

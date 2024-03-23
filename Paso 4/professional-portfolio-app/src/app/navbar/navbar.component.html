@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg m-0 ">
+        <button class="navbar-toggler border-light  mx-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>    
+    <div class="collapse navbar-collapse d-lg-flex justify-content-lg-between" id="navbarNav">
+        <ul class="navbar-nav me-sm-0  me-auto mb-2 mb-lg-0">
+            <li class="nav-item  ">
+                <a class="nav-link ms-sm-0 ms-lg-5 " href="">
+                    <img src="assets/logo.png" alt="Logo of a cat shaped like the letter J" i18n-alt="@@logoAlt">
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mx-5 ">
+            <li class="nav-item  menu ">
+                <a class="nav-link" (click)="scrollTo('home')" i18n="@@home">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item menu">
+                <a class="nav-link" (click)="scrollTo('about')" i18n="@@aboutMe">
+                    About Me
+                </a>
+            </li>
+            <li class="nav-item menu">
+                <a class="nav-link" (click)="scrollTo('projects')" i18n="@@projects">
+                    Projects
+                </a>
+            </li>
+            <li class="nav-item menu" >
+                <a class="nav-link" (click)="scrollTo('skills')" i18n="@@skills">
+                    Skills
+                </a>
+            </li>
+            <li class="nav-item menu">
+                <a class="nav-link" (click)="scrollTo('contact')" i18n="@@contact">
+                    Contact
+                </a>
+            </li>
+            <li class="nav-item menu-no d-flex justify-content-center ">
+                <a class="btn btn-primary" href="/es-CR/" i18n-href="@@changeLangLink" > <span i18n="@@changeLangText">Español</span> </a>
+            </li>
+        </ul>
+    </div>
+</nav>
